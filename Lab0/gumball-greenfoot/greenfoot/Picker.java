@@ -16,4 +16,29 @@ public class Picker extends Alien
     {
         // Add your action code here.
     }    
+    
+    public void pick() {
+        int randomNo = Greenfoot.getRandomNumber(3);
+        
+        outputBall(randomNo);
+    }
+    
+    public void outputBall(int num) {
+        Gumball ball = new GreenGumball();
+        switch(num) {
+            case 0: 
+                ball = new BlueGumball();
+                break;
+            case 1: 
+                ball = new RedGumball();
+                break;
+            case 2: 
+                ball = new GreenGumball();
+                break;
+        }
+        
+        GumballWorld world = (GumballWorld) getWorld();
+        world.addObject(ball, 500, 500);
+        world.getStatus().setMessage(ball.getClass().getName());
+    }
 }

@@ -15,5 +15,11 @@ public class RandomPicker extends Picker
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    
+    public void pick() {
+        int randomNo = Greenfoot.getRandomNumber(3);
+        
+        outputBall(randomNo);        
+    }
 }

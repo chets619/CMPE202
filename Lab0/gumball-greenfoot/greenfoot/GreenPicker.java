@@ -16,4 +16,8 @@ public class GreenPicker extends Picker
     {
         // Add your action code here.
     }    
+    
+    public void pick() {
+        outputBall(2);
+    }
 }

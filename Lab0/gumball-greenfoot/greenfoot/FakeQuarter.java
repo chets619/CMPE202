@@ -15,4 +15,8 @@ public class FakeQuarter extends Quarter
         image.scale( 75, 75 ) ; 
     }
     
+    public String toString() {
+        return "Fake Quarter Detected! Please insert a quarter";
+    }
+    
 }

@@ -15,4 +15,8 @@ public class Penny extends Coin
         image.scale( 50, 50 ) ;        
     }
     
+    public String toString() {
+        return "Penny Inserted! Please insert a quarter";
+    }
+    
 }
