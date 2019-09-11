@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GumballMachine
+comment1.params=size\ type
+comment1.target=GumballMachine(int,\ int)
+comment2.params=str
+comment2.target=int\ recordTextResponse(java.lang.String)
+comment3.params=
+comment3.target=void\ selectAction()
+comment4.params=
+comment4.target=void\ acceptCoin()
+comment5.params=coin
+comment5.target=void\ insertCoin(int)
+comment6.params=
+comment6.target=void\ turnCrank()
+numComments=7
